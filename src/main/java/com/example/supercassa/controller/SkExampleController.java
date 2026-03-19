@@ -21,7 +21,7 @@ public class SkExampleController {
         try {
             int current = service.modifyObject(request.id(), request.add());
             return ResponseEntity.ok(new ModifyResponse(current));
-        } catch (Exception e) {
+        } catch (Exception tte) {
             return ResponseEntity.status(HttpStatus.I_AM_A_TEAPOT).build();
         }
     }
