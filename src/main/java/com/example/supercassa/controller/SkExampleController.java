@@ -25,4 +25,9 @@ public class SkExampleController {
             return ResponseEntity.status(HttpStatus.I_AM_A_TEAPOT).build();
         }
     }
+
+
+
+
+
 }
